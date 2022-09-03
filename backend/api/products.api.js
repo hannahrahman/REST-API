@@ -26,7 +26,6 @@ const getProduct = async id =>{
 const deleteProduct = async id =>{
     return await removeById(id);
 }
-//Map the update method, Gets the id and Product object as parameters and the passes it to the
 //update() method
 const updateProduct = async (id,{name, description, qty, price})=>{
     return await update(id,{name, description, qty, price});
